@@ -20,7 +20,7 @@
 
 ## 📸 Screenshot of Work-in-Progress Page
 
-![Work in Progress](public\img\indexpage.pnh)  
+![Work in Progress](public\img\indexpage.png)  
 _Current state of the homepage while the new design is being developed._
 
 ---
