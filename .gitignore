@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# Optional npm cache
+.npm
+
+# Debug files
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
