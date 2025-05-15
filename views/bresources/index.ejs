@@ -1,0 +1,19 @@
+<%layout("/layouts/boilerplate")%>
+
+<div class="container my-5">
+     <div class="row">
+          <% branches.forEach(branch => { %>
+          <div class="col-md-6 mb-4">
+               <a href="/bresources/<%= branch._id %>">
+               <div class="card horizontal-card d-flex flex-row align-items-center">
+                    <img src="<%= branch.image %>" class="card-img-small" alt="Engineering & Technology">
+                    <div class="card-body">
+                    <h5 class="card-title"><b><%= branch.name %></b></h5>
+                    </div>
+               </div>
+               </a>
+          </div>
+          <% }) %>
+
+     </div>
+</div>
